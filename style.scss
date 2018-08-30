@@ -1,5 +1,36 @@
+/* example of nesting */
 div{
   p{
     text-align:center;
   }
+}
+
+/* example of variable */
+$color: darkblue;
+ul{
+  font-size: 24px;
+  color: $color;
+}
+ol{
+  font-size: 18px;
+  color: $color;
+}
+/* example of inheritance */
+
+%message{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.success{
+  @extend %message;
+  background-color: lightgreen;
+}
+.warning{
+  @extend %message;
+  background-color: pink;
 }
