@@ -13,7 +13,14 @@ two columns using grid model
  at least one example of SCSS nesting,
  and at least one use of SCSS inheritance.
 */
+<<<<<<< HEAD
 
+=======
+/* > five selectors*/
+html{
+    font-family: sans-serif;
+  }
+>>>>>>> part2
 h1 {
 
   color: darkblue;
@@ -31,6 +38,10 @@ p{
   font-size: 18px;
 }
 
+a{
+  color: black;
+}
+
 table {
     border: 4px solid black;
     border-collapse: collapse;
@@ -46,11 +57,7 @@ th, td {
 th {
     background-color: lightgray;
 }
-
-div{
-  margin-left:10%;
-  margin-right: 10%;
-}
+/* use id */
 #top {
     font-size: 24px;
     color: #010101;
@@ -59,19 +66,25 @@ div{
 #middle {
     font-size: 24px;
 }
-
-#bottom {
-    font-size: 24px;
-}
-
+/* use  class */
 .name {
     font-weight: bold;
     color: black;
 }
 
+<<<<<<< HEAD
+=======
+/* use @media */
+>>>>>>> part2
 @media print {
   .screen-only{
     display: none;
   }
+<<<<<<< HEAD
 
 }
+=======
+}
+
+/* sass are in another file, see style.sass, style.css, and style.css.map */
+>>>>>>> part2
